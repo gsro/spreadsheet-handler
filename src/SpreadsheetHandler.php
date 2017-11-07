@@ -8,7 +8,7 @@
 namespace GSRO\SpreadsheetHandler;
 
 
-use PhpOffice\PhpSpreadsheet\Worksheet;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 class SpreadsheetHandler
 {

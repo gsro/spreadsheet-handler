@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "phpoffice/phpspreadsheet": "^1.0"
+        "phpoffice/phpspreadsheet": "dev-develop"
     },
     "repositories": [
         {
