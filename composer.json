@@ -1,0 +1,25 @@
+{
+    "name": "gsro/spreadsheet-handler",
+    "description": "Simple Spreadsheet handler for PHPSpreadsheet",
+    "authors": [
+        {
+            "name": "gabidj",
+            "email": "git@gabisuciu.ro"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-develop"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPOffice/PhpSpreadsheet"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+              "GSRO\\SpreadsheetHandler\\" : "src"
+        }
+    },
+    "license": "MIT"
+}
