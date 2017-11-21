@@ -46,6 +46,14 @@ class SpreadsheetHandler
         return $this->currentPosition;
     }
     
+    public function getCoordinatesForPosition(string $position) : array
+    {
+        return [
+            'row' =>  preg_replace('/\d/', '', $position ),
+            'col' => preg_replace('/\D/', '', $position)
+        ];
+    }
+    
     /**
      * @param string $currentPosition
      */
