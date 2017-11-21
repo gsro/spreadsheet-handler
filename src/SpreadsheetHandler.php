@@ -49,8 +49,8 @@ class SpreadsheetHandler
     public function getCoordinatesForPosition(string $position) : array
     {
         return [
-            'row' =>  preg_replace('/\d/', '', $position ),
-            'col' => preg_replace('/\D/', '', $position)
+            'col' =>  preg_replace('/\d/', '', $position ),
+            'row' => preg_replace('/\D/', '', $position)
         ];
     }
     
